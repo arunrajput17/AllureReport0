@@ -1,0 +1,19 @@
+Steps:
+
+1. Create a New Maven project and update pom.xml with required Dependencies.
+	- TestNG
+	- Selenium java
+	- WebDriverManager
+	- Allure-TestNG
+
+2. Download Maven and Allure Binaries then set path
+
+3. Check Maven and Allure versions in command prompt
+	- mvn -version
+	- allure --version
+
+4. Create TestNG Test cases then run through TestNG.XML
+
+5. Then, run below command in Windows Command prompt
+	- allure serve <path of allure-results folder>
+	- allure serve D:\au\allure-results
