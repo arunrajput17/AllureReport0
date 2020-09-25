@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-11T09:25:55Z" name="Default suite" finished-at="2020-09-11T09:26:10Z" duration-ms="15046">
+  <suite started-at="2020-09-25T09:56:17Z" name="Default suite" finished-at="2020-09-25T09:56:51Z" duration-ms="33895">
     <groups>
     </groups>
-    <test started-at="2020-09-11T09:25:55Z" name="Default test" finished-at="2020-09-11T09:26:10Z" duration-ms="15046">
+    <test started-at="2020-09-25T09:56:17Z" name="Default test" finished-at="2020-09-25T09:56:51Z" duration-ms="33895">
       <class name="AllureReportsTest.Test1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:AllureReportsTest.Test1@14f232c4]" started-at="2020-09-11T09:25:55Z" name="setUp" finished-at="2020-09-11T09:26:05Z" duration-ms="9647" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AllureReportsTest.Test1@14f232c4]" started-at="2020-09-25T09:56:17Z" name="setUp" finished-at="2020-09-25T09:56:44Z" duration-ms="27339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logoPresence()[pri:1, instance:AllureReportsTest.Test1@14f232c4]" started-at="2020-09-11T09:26:05Z" name="logoPresence" description="Verify Logo presence on Home Page TestNG annotation" finished-at="2020-09-11T09:26:05Z" duration-ms="335" status="PASS">
+        <test-method signature="logoPresence()[pri:1, instance:AllureReportsTest.Test1@14f232c4]" started-at="2020-09-25T09:56:44Z" name="logoPresence" description="Verify Logo presence on Home Page TestNG annotation" finished-at="2020-09-25T09:56:45Z" duration-ms="722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoPresence -->
-        <test-method signature="loginTest()[pri:2, instance:AllureReportsTest.Test1@14f232c4]" started-at="2020-09-11T09:26:06Z" name="loginTest" finished-at="2020-09-11T09:26:09Z" duration-ms="3493" status="FAIL">
+        <test-method signature="loginTest()[pri:2, instance:AllureReportsTest.Test1@14f232c4]" started-at="2020-09-25T09:56:45Z" name="loginTest" finished-at="2020-09-25T09:56:49Z" duration-ms="4167" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [noCommerce demo store] but found [nopCommerce demo store. Login]]]>
@@ -60,7 +60,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="registrationTest()[pri:3, instance:AllureReportsTest.Test1@14f232c4]" started-at="2020-09-11T09:26:09Z" name="registrationTest" description="Verify Registration form TestNG Test" finished-at="2020-09-11T09:26:09Z" duration-ms="6" status="SKIP">
+        <test-method signature="registrationTest()[pri:3, instance:AllureReportsTest.Test1@14f232c4]" started-at="2020-09-25T09:56:49Z" name="registrationTest" description="Verify Registration form TestNG Test" finished-at="2020-09-25T09:56:49Z" duration-ms="13" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this test]]>
@@ -99,7 +99,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllureReportsTest.Test1@14f232c4]" started-at="2020-09-11T09:26:09Z" name="tearDown" finished-at="2020-09-11T09:26:10Z" duration-ms="1264" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AllureReportsTest.Test1@14f232c4]" started-at="2020-09-25T09:56:49Z" name="tearDown" finished-at="2020-09-25T09:56:51Z" duration-ms="1384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
